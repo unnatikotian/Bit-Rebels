@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,300&family=Crimson+Text:wght@600&family=IBM+Plex+Sans:wght@300&family=Libre+Baskerville&family=Roboto&display=swap');
+
+.tt{
+    text-align: center;
+    margin-top: 100px;
+}
+.container4{
+    background-image: url('https://www.bhatiahospital.org/storage/app/public/home_banner/2/image/1503411077revised-bhatia-homebanner-03.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-family: 'Libre Baskerville', 'serif';    
+
+}
+.ct5{
+    font-family: 'Libre Baskerville', 'serif';    
+}
+.tc{
+    margin-top: 10%;
+}
+
+.ty{
+    padding-top: 18%;
+
+}
+
+.ot{
+    border: 7px solid white;
+    color: white;
+    border-style:double;
+    border-radius: 0;
+
+}

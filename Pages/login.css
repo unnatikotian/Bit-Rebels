@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.container{
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 15px 1px black;
+    border-radius: 10px;
+    width: 550px;
+}
+
+#h{
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.btn-primary{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.form-floating{
+    margin-left: 50px;
+    
+}
+.form-control{
+    width: 150%;
+}
+#emailHelp2{
+    margin-left: 170px;
+}
+         
+.btc {
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: 50%;
+
+  }
+
+  #emailHelp1{
+    text-align: center;
+    margin-left: 13.6%;
+  }
+
+ 
+
+  .btc{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 844px) {
+    .btc{
+        width: 70%;
+        margin-left: 10%;
+    }
+    .container{
+      width: 85%;
+      margin-left: 10%;
+      display: block;
+      
+    }
+    .c1{
+        margin-left: 6%;
+      padding: 4%;
+        
+    }
+    .i{
+        display: none;
+    }
+    #h{
+        margin-top: 50px;
+        margin-right: 50%;
+    }
+  
+    .form-control{
+        width: 100%;
+    }
+    #emailHelp2{
+      margin-left: 1%;
+    }
+  }
