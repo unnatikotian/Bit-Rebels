@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,300&family=Crimson+Text:wght@600&family=IBM+Plex+Sans:wght@300&family=Libre+Baskerville&family=Roboto&display=swap');
+
+.form{
+    display: flex;
+    justify-content:flex-start;
+}
+
+#frm2,#frm1{
+    margin-left: 15px;
+}
+#emailHelp3{
+  margin-left: 20%;
+}
+
+.imgtxt{
+  display: flex;
+  margin-left: 157px;
+}
+.container1{
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-left: 30%;
+  box-shadow:-2px 1px 32px -12px rgb(85, 85, 255);
+  border-radius: 10px;
+  width:600px;
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  margin-top: 3%;
+}
+.fc{
+  width: 80%
+}
+
+.sign{
+  
+  margin-top: 20px;
+
+}
+
+.t3{
+  margin-top: 30px;
+  margin-left: 150px;
+}
+h5{
+  margin-left: 10px;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: 15%;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  @media only screen and (max-width: 844px) {
+    .btn-grad{
+        width: 65%;
+        margin-left: 10%;
+    }
+    .container1{
+      width: 90%;
+      margin-left: 5%;
+      
+    }
+    .imgtxt{
+      margin-left: auto
+    }
+    .form-floating{
+      margin: auto;
+    }
+    #emailHelp3{
+      margin-left: 20%;
+    }
+  }
