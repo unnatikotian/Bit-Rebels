@@ -29,7 +29,7 @@ export default function Signup() {
       }),
     });
 
-    const json = await (await response).json();
+    const json = await (await response).json()
     console.log(json);
 
     if (!json.success) {
