@@ -13,7 +13,7 @@ export default function Contact() {
               alt="sc"
             ></img>
           </div>
-          <h3 className='text-center tu'>Contact Us</h3>
+          <h3 className='text tu'>Contact Us</h3>
           <form onSubmit>
             <div className="form-floating mt-5">
               <input
@@ -40,6 +40,8 @@ export default function Contact() {
                 <textarea class="form-control mt-4 h-75 ta"  placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                 <label for="floatingTextarea">Comments</label>
             </div>
+            <input type="submit" name="" id="" className='btn btc-grad  mt-4' />
+
     </form>
 
           </div>

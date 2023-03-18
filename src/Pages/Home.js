@@ -33,7 +33,14 @@ export default function Home() {
           <h2 className='text-center  tc'>Key Features</h2>
           <Card/>
         </div>
-        
-    </div>
+
+        <footer class="bg-dark text-center mt-5 ">
+  <div class="text-center text-light p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+    © 2023 Copyright: Bit Rebels
+  </div>
+</footer>
+      </div>
+
+
   )
 }
