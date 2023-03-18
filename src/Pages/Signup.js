@@ -29,7 +29,7 @@ export default function Signup() {
       }),
     });
 
-    const json = await (await response).json();
+    const json = await (await response).json()
     console.log(json);
 
     if (!json.success) {
@@ -50,13 +50,12 @@ export default function Signup() {
         <div className="container1">
           <div className="imgtxt ">
             <img
-              src="https://img.freepik.com/free-vector/hospital-logo-design-vector-medical-cross_53876-136743.jpg?w=2000"
+              src='/Images/Swasth-E.jpeg'
               className="rounded"
-              width={60}
-              height={60}
+              width={200}
+              height={200}
               alt="sc"
             ></img>
-            <h4 className="title text-center mt-3 mx-2">E-Hospital</h4>
           </div>
           <form onSubmit={handleSubmit}>
             <div className="form-floating mt-5">
@@ -86,20 +85,20 @@ export default function Signup() {
             </div>
 
             <div className="form mt-4 mx-5">
-              <label htmlFor="">Sign In As:</label>
+              <label htmlFor="">Gender:</label>
               <div class="form-check form-check-inline mx-3">
                 <input
                   class="form-check-input"
                   type="radio"
                   name="type"
-                  value ='User'
+                  value ='Male'
                   id="inlineRadio1"
                   onChange={onChange}
-                  checked = {details.type==='User'}
+                  checked = {details.type==='Male'}
 
                 />
                 <label class="form-check-label" for="inlineRadio1">
-                  User
+                  Male
                 </label>
               </div>
               <div class="form-check form-check-inline">
@@ -108,12 +107,12 @@ export default function Signup() {
                   type="radio"
                   name="type"
                   id="inlineRadio2"
-                  value='Admin'
+                  value='Female'
                   onChange={onChange}
-                  checked={details.type==='Admin'}
+                  checked={details.type==='Female'}
                 />
                 <label class="form-check-label" for="inlineRadio2">
-                  Admin
+                  Female
                 </label>
               </div>
             </div>

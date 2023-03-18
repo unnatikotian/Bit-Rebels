@@ -12,25 +12,27 @@ let Navigate = useNavigate()
   }
   return (
     <>
-     <nav class="navbar navbar-expand-lg navbar-dark" >
+     <nav class="navbar navbar-expand-lg navbar-light" >
 
-<div class="container-fluid">
+<div class="container-fluid fs-5">
 <a class="navbar-brand" href="/">
-  <img src="https://w7.pngwing.com/pngs/175/27/png-transparent-uniform-logo-brand-web-page-industry-navbar-text-trademark-logo.png" className='rounded' alt="Bootstrap" width="50" height="40"/>
+  <img src="/Images/Swasth-E.jpeg" className='rounded' alt="Bootstrap" width="70" height="70"/>
+  Swasth-E
 </a>
 
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    <li class="nav-item">
-      <Link class="nav-link active" aria-current="page" to="/">Home</Link>
-    </li>
+   
     {(localStorage.getItem("authToken"))?
-    <li class="nav-item">
-      <Link class="nav-link active" aria-current="page" href="/">Orders</Link>
-    </li>
+    <>
+      <li class="nav-item">
+        <Link class="nav-link active" aria-current="page" href="/">Appointment</Link>
+      </li>
+    </>
+      
     : " "}
     </ul>
 
@@ -39,9 +41,9 @@ let Navigate = useNavigate()
     {(!localStorage.getItem("authToken"))?
 
     <div className='d-flex '>
-      <Link className='btn p-2 text-primary bg-white mx-1  nav-link active' to='/login'>Login</Link>
+      <Link className='   mx-3  nav-link active' to='/login'>Login</Link>
    
-      <Link className='btn p-2 text-primary bg-white mx-1 nav-link active' to='/signup'>Sign Up</Link>
+      <Link className=' mx-5 nav-link active' to='/signup'>Sign Up</Link>
     
     </div>
     :
